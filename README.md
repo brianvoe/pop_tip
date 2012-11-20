@@ -5,6 +5,12 @@ Simple self contained jquery popup tooltip
 
 ## Example:
 
+```html
+
+<div class="pop_tip" title="Tooltip text here">Hover over me!</div>
+
+```
+
 ```javascript
 
 $('.pop_tip').poptip({
