@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset=utf-8>
+        <title>Simple Jquery tooltip</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script src="poptip.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.pop_tip').poptip({
+                    fontsize: '18px',
+                    animate: 'slide'
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <h1>Pop Tip</h1>
+        <h2>Simple self contained jquery popup tooltip</h2>
+        <div class="pop_tip" title="Tooltip text here">Hover over me!</div>
+        <br /><br />
+        <div class="pop_tip" title="Here is the other tooltip">Try my out!</div>
+    </body>
+</html>
