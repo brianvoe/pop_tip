@@ -6,13 +6,10 @@ Simple self contained jquery popup tooltip
 ## Example:
 
 ```html
-
 <div class="pop_tip" title="Tooltip text here">Hover over me!</div>
-
 ```
 
 ```javascript
-
 $('.pop_tip').poptip({
     /* Styling */
     zindex: 10, /* Set z-index */
@@ -32,5 +29,4 @@ $('.pop_tip').poptip({
     animate: false, /* Animation options (showhide, fade or slide) - can be false to just show hide */
     speed: 150 /* Speed of animation if set */
 });
-
 ```
