@@ -1,5 +1,5 @@
 /*
-  Upload and crop jquery plugin
+  Simple tooltip jquery plugin
   Copyright (c) 2012 Brian Voelker (webiswhatido.com)
   Licensed under GPLv3
   http://www.opensource.org/licenses/gpl-3.0.html
